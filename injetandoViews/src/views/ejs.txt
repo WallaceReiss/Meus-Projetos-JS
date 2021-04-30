@@ -1,0 +1,10 @@
+<% Controle de fluxo com (For, IF, ....) %>
+<%= Imprime o que estiver no método, sem executar o código %>
+<%- Imprime executando o que estiver dentro do método%>
+<%- Include (caminho do arquivo) %>
+
+<% if(algumacoisa { %>
+    parametros do if
+<% } else { %>
+    paramentros do else
+<% } %>
